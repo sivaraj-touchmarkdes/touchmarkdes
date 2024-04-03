@@ -1,0 +1,201 @@
+/*******Heading-Start********
+
+1) Navbar Css
+
+/*******Heading-End****/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+}
+
+/*****Navbar-Start****/
+.logo{
+    width: 193px;
+    /* height: 40px; */
+    padding: 0 20px 0 0;
+    border-right: 1px solid #FFFFFF;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    background-color:transparent;
+    color:#FFFFFF;
+    border-bottom: 1px solid #ffffff91;
+    padding: 20px 0 0 20px;
+  }
+  .brand-title{
+    font-size: 16px;
+    display: flex;
+  }
+  .navbar-ul{
+    /* border-left: 1px solid #FFFFFF; */
+    opacity: 0.6;
+
+  }
+  .navbar-ul li a{
+    text-decoration: none;
+    /* opacity: 0.6; */
+    color: #FFFFFF;
+  }
+  .navbar-links ul{
+    display: flex;  
+  }
+  
+  .navbar-links li{
+    list-style:none;
+    padding: 1rem; 
+    display: block;
+    
+  }
+  
+  .toggle-button{
+    position: absolute;
+    top:.75rem; 
+    right: 1rem;
+    display:none;
+    flex-direction: column;
+    justify-content:space-between;
+    width:31px;
+    height:21px;
+    z-index: 1;
+  }
+  
+  
+  .toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.8s;
+  }
+  
+   .active .bar1 {
+    transform: rotatez(-45deg) translate(-7px, 6px)
+  }
+   .active .bar2 {
+    opacity: 0;
+    
+  }
+  .active .bar3{
+    transform: rotatez(45deg) translate(-7px, -6px)
+  }
+  
+  
+  
+  
+  @media (max-width:450px){
+    body {overflow-x: hidden;}
+    
+      .toggle-button {
+      display: flex;
+        }
+    .navcont{
+      width: 100%;}
+      
+    .navbar-links{
+      
+        /*hidden
+        display:none;
+        */
+        position:absolute;
+        background-color: red;
+        width:100%;
+        height: 100vh;
+        /*hidden off to side*/
+        transform: translateX(100vw);
+     transition: transform 0.8s ease-in-out;
+      
+    
+    }
+    
+    .navbar{
+      flex-direction:column;
+      align-items: flex-start;
+         
+      
+    }  
+    .navbar-links ul {
+      flex-direction: column;
+         
+      
+    }
+    
+    
+    }
+    .navbar-links.active {
+      display:flex;
+      transform: translateX(0vw);
+    }
+  .navbar-letstalk{
+    font-size: 16px;
+    background-color: #009ADC;
+    padding: 9px 20px;
+    border-radius: 30px;
+  }
+  /*****Navbar-End****/
+
+
+  .hero-video-banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+}
+.business-head{
+    display: flex;
+    justify-content: center;
+}
+.second-title{
+    font-weight: 700; /* Bold */
+    color: #009ADC; /* Blue color */
+  }
+  .section-title{
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 17px;
+    width: fit-content;
+  }
+  .hero-video-banner{
+    padding-top: 150px;
+  }
+  .section-challenges{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 80px;
+  }

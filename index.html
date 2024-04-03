@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
-    <h1 class="text-primary">Touchmark des</h1>
+
+    <div class="navbar-header">
+        <video src="./assets/img/hero-banner-vid.mp4" loop muted autoplay></video>
+    <div class="navcont container">
+        <nav class="navbar d-flex">
+            <div class="brand-title">
+                <div>
+                    <img src="./assets/img/tds-logo.png" alt="#" class="img-fluid logo">
+                </div>
+                <div class="navbar-links">
+                    <ul class="navbar-ul">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Case Study</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="toggle-button">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+            </a>
+            <div>
+                <h4 class="navbar-letstalk">Let's Talk</h4>
+            </div>
+    </nav>
+    </div>
+    </div>
+
+    <div class="hero-video-banner container">
+ 
+        <div class="overlay"></div>
+        <div class="content mx-5">
+            <div class="mx-5">
+                <h4 class="section-title">The power of technology for future</h4>
+            </div>
+            <div class="mx-5 pt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="section-challenges">We address</br>
+                            challenges & create </br>
+                            future ready solutions</h1>
+                    </div>
+                    <div  class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vero placeat suscipit tempora recusandae. Nam dolores debitis cum corrupti voluptatibus nihil dolorem maxime, aperiam, modi molestiae, sit voluptates aliquid sunt.</p>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <br class="business-head">
+        <h1 class="second-title">A systematically approach that improves </br> the performance of your business</h1>
+    </div>
+    </div>
+
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+        const navbar = document.getElementsByClassName('navbar')[0]
+
+
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+            navbar.classList.toggle('active')
+        })
+
+
+    </script>
 
 </body>
+
 </html>
