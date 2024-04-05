@@ -279,8 +279,6 @@
 .nav-pills .nav-link{
   background-color: #F1FBFF !important;
   margin: 12px 0;
-  filter: grayscale(95%);
-
 }
 .tab-title{
   font-size: 48px;
@@ -306,10 +304,7 @@
 }
 .nav-pills .nav-link.active {
   border: 2px solid #009ADC; /* Change the border color as needed */
-  border-radius: 5px; 
-  filter: grayscale(0%);
-
-  /* Optional: Add border radius for rounded corners */
+  border-radius: 5px; /* Optional: Add border radius for rounded corners */
 }
 
 @media only screen and (max-width:768.98px) {
@@ -468,14 +463,116 @@
 }
 /*center section end*
 
-/*card extent start*/
-.more-view{
-  background-color: #1C95C9;
-  width: fit-content;
-  color: #FFFFFF;
-  padding: 8px;
-  border-radius: 30px;
+
+
+/*Touchmark Experts Fuel*/
+
+/*Touchmark Experts Fuel-TITLE*/
+
+.content-section-3 {
+  padding: 100px 200px 100px 200px;
 }
 
-/*card extent end*/
+.content-section-3 h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
 
+.content-section-3 p {
+  font-size: 24px;
+  margin-top: 29px;
+}
+
+/*Touchmark Experts Fuel TITLE for Mobile*/
+
+@media (max-width: 768px) {
+  .content-section-3 {
+    padding: 10px 20px 10px 20px;
+  }
+
+  .content-section-3 h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .content-section-3 p {
+    font-size: 12px;
+    margin-top: 19px;
+  }
+}
+
+/*Touchmark Experts Fuel-BOX*/
+
+.box-section {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.box-section .box-1 {
+  background-color: #1A4A93;
+  color: white;
+  padding: 16px;
+  width: 550px;
+  height: 370px;
+}
+
+.box-1 h1,
+.box-2 h1 {
+  font-size: 48px;
+  padding: 15px;
+}
+
+.box-1 p,
+.box-2 p {
+  font-size: 24px;
+  padding: 15px;
+  font-weight: lighter;
+}
+
+.box-section .box-2 {
+  background-color: #009ADC;
+  color: white;
+  padding: 16px;
+  width: 550px;
+  height: 370px;
+}
+
+/*Touchmark Experts Fuel BOX for Mobile*/
+
+@media (max-width: 768px) {
+  
+.box-section {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.box-section .box-1 {
+  background-color: #1A4A93;
+  color: white;
+  padding: 16px;
+  width: 550px;
+  height: 370px;
+}
+
+.box-1 h1,
+.box-2 h1 {
+  font-size: 48px;
+  padding: 15px;
+}
+
+.box-1 p,
+.box-2 p {
+  font-size: 24px;
+  padding: 15px;
+  font-weight: lighter;
+}
+
+.box-section .box-2 {
+  background-color: #009ADC;
+  color: white;
+  padding: 16px;
+  width: 550px;
+  height: 370px;
+}
+
+}

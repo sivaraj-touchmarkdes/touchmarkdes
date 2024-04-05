@@ -6,68 +6,484 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Document</title>
 </head>
 
 <body>
 
-    <div class="navbar-header">
-        <video src="./assets/img/hero-banner-vid.mp4" loop muted autoplay></video>
-    <div class="navcont container">
-        <nav class="navbar d-flex">
-            <div class="brand-title">
+    <div class="navbar-header fixed-top">
+        <div class="navcont container">
+            <nav class="navbar d-flex">
+                <div class="brand-title">
+                    <div>
+                        <img src="./assets/img/tds-logo.png" alt="#" class="img-fluid logo">
+                    </div>
+                    <div class="navbar-links">
+                        <ul class="navbar-ul">
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Case Study</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="toggle-button">
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+                </a>
                 <div>
-                    <img src="./assets/img/tds-logo.png" alt="#" class="img-fluid logo">
+                    <h4 class="navbar-letstalk">Let's Talk</h4>
                 </div>
-                <div class="navbar-links">
-                    <ul class="navbar-ul">
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Case Study</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </div>
-            </div>
-            <a href="#" class="toggle-button">
-                <span class="bar bar1"></span>
-                <span class="bar bar2"></span>
-                <span class="bar bar3"></span>
-            </a>
-            <div>
-                <h4 class="navbar-letstalk">Let's Talk</h4>
-            </div>
-    </nav>
-    </div>
+            </nav>
+        </div>
     </div>
 
-    <div class="hero-video-banner container">
- 
-        <div class="overlay"></div>
-        <div class="content mx-5">
-            <div class="mx-5">
-                <h4 class="section-title">The power of technology for future</h4>
-            </div>
-            <div class="mx-5 pt-5">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1 class="section-challenges">We address</br>
-                            challenges & create </br>
-                            future ready solutions</h1>
+
+    <div id="videoWrapper">
+        <video playsinline autoplay muted loop>
+            <source src="./assets/img/hero-banner-vid.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+            <div class="section-heading container">
+                <div class="section-main">
+                    <div class="mx-5 mb-3 mb-md-0 section-head d-flex">
+                        <span class="section-title me-3  mt-md-0">The power of technology for future</span>
+                        <img src="./assets/img/arrow.svg" alt="">
                     </div>
-                    <div  class="col-md-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vero placeat suscipit tempora recusandae. Nam dolores debitis cum corrupti voluptatibus nihil dolorem maxime, aperiam, modi molestiae, sit voluptates aliquid sunt.</p>
+                    <div class="row gap-0 gap-md-5">
+                        <div class="col-md-6">
+                            <div>
+                                <h1 class="section-challenges ms-5 mt-0 mt-md-5">We address</br>
+                                    challenges & create </br>
+                                    future ready solutions</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-1 d-none d-md-block">
+                            <h1 class="section-line"></h1>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mt-2 mt-md-5">
+                                <p class="section-para mx-5 mx-md-0">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Dolorum vero placeat suscipit tempora recusandae. Nam dolores debitis cum
+                                    corrupti voluptatibus nihil dolorem maxime, aperiam, modi molestiae, sit voluptates
+                                    aliquid sunt.</p>
+                            </div>
+                            <div class="mx-5 mx-md-0">
+                                <a class="btn section-getstart-btn mt-2 mt-md-0">Get Started</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-              
+                <div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="">
+                <div>
+                    <p class=" ms-5 mt-0 mt-md-5 text-white">Trusted by the top enterprises where obstacles are
+                        transformed into opportunities</p>
+                </div>
+                <div class="ms-5">
+                    <div class="d-flex gap-3 gap-md-5">
+                        <div>
+                            <img src="./assets/img/cocacola.svg" alt="" class="section-logo">
+                        </div>
+                        <div>
+                            <img src="./assets/img/RUPINIS-LOGO-LIGHT.png" alt="" class="section-logo">
+                        </div>
+                        <div>
+                            <img src="./assets/img/tag_logo_white.png" alt="" class="section-logo">
+                        </div>
+                        <div>
+                            <img src="./assets/img/SIDBI_LOGO_white.png" alt="" class="section-logo">
+                        </div>
+                        <div>
+                            <img src="./assets/img/logo-light.png" alt="" class="section-logo">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="text-center content-section">
+        <h1>A systematically approach that improves <br>
+            the performance of your business</h1>
+    </div>
+    <div class="section-center-head">
+        <div class="container section-container">
+            <div class="section-center-main">
+                <div class="">
+                    <h3 class="section-center-title">Touchmark experts fuel the growth engines of over 20+ <br>
+                        global enterprises annually</h3>
+                    <p class="section-center-para my-5">We collaborate closely with enterprises, leaders in various
+                        industries worldwide, to unlock their growth potential in remarkable ways</p>
+                </div>
+
+                <div class="d-block d-md-flex">
+                    <div class="">
+                        <div class="card my-4 my-md-0  address-challenge-card">
+                            <div class="card-head border-0 ">
+                                <div>
+                                    <h2 class="address-challenge-title">Address challenges and create solutions</h2>
+
+                                </div>
+                            </div>
+                            <div class="card-body p-0 my-4 border-0 bg-transparent">
+                                <div>
+                                    <p class="address-challenge-para">We work together with enterprises, leaders in
+                                        every industry across the globe to unlock their growth potential in
+                                        extraordinary ways.</p>
+                                </div>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent p-0 mt-5">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <a href="#" class="section-learnmore">Learn More</a>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12"
+                                            viewBox="0 0 24 12">
+                                            <path id="arrow"
+                                                d="M9.25,4.731,5.28,8.965a.718.718,0,0,1-1.061,0,.839.839,0,0,1,0-1.131l5.25-5.6a.717.717,0,0,1,1.061,0l5.25,5.6a.839.839,0,0,1,0,1.131.718.718,0,0,1-1.061,0l-3.97-4.234V25.2a.752.752,0,1,1-1.5,0Z"
+                                                transform="translate(26 -4.001) rotate(90)" fill="#ffffff"
+                                                fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="card ms-md-5 my-4 my-md-0 methodology-challenge-card">
+                            <div class="card-head border-0 ">
+                                <div>
+                                    <h2 class="address-challenge-title">Frugal Engineering & Agile Methodology</h2>
+
+                                </div>
+                            </div>
+                            <div class="card-body p-0 my-4 border-0 bg-transparent">
+                                <div>
+                                    <p class="address-challenge-para">We work together with enterprises, leaders in
+                                        every industry across the globe to unlock their growth potential in
+                                        extraordinary ways.</p>
+                                </div>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent p-0 mt-5">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <a href="#" class="section-learnmore">Learn More</a>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12"
+                                            viewBox="0 0 24 12">
+                                            <path id="arrow"
+                                                d="M9.25,4.731,5.28,8.965a.718.718,0,0,1-1.061,0,.839.839,0,0,1,0-1.131l5.25-5.6a.717.717,0,0,1,1.061,0l5.25,5.6a.839.839,0,0,1,0,1.131.718.718,0,0,1-1.061,0l-3.97-4.234V25.2a.752.752,0,1,1-1.5,0Z"
+                                                transform="translate(26 -4.001) rotate(90)" fill="#ffffff"
+                                                fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-project mt-5">
+                    <a href="#" class="view-btn  mb-4"> view our projects</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+
     <div class="container">
-    <br class="business-head">
-        <h1 class="second-title">A systematically approach that improves </br> the performance of your business</h1>
+        <div class="mx-5 mb-4">
+
+            <div class="d-block d-md-flex align-items-start flex-row-reverse">
+                <div class="nav flex-md-column nav-pills me-3 d-flex d-md-block tab-order-1" id="v-pills-tab"
+                    role="tablist" aria-orientation="vertical">
+                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true">
+                        <img src="./assets/img/cocacola_logo.png" alt="" class="tab-logo">
+                    </button>
+                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                        aria-selected="false">
+                        <img src="./assets/img/RBL_Bank_bw.png" alt="" class="tab-logo">
+                    </button>
+                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                        aria-selected="false">
+                        <img src="./assets/img/cocacola_logo.png" alt="" class="tab-logo">
+                    </button>
+                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                        aria-selected="false">
+                        <img src="./assets/img/RBL_Bank_bw.png" alt="" class="tab-logo">
+                    </button>
+                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-sidbi" type="button" role="tab" aria-controls="v-pills-sidbi"
+                        aria-selected="false">
+                        <img src="./assets/img/cocacola_logo.png" alt="" class="tab-logo">
+                    </button>
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div>
+                                <h3 class="tab-title">
+                                    Discover how businesses grow with Touchmark
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div>
+                                <p class="tab-para">Throughout the years, our power house team have consistently
+                                    provided innovative solutions to leading organizations and enterprises worldwide.
+                                </p>
+                                <div class="tab-view">
+                                    <span>View customer stories</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12">
+                                        <path id="arrow"
+                                            d="M9.25,4.731,5.28,8.965a.718.718,0,0,1-1.061,0,.839.839,0,0,1,0-1.131l5.25-5.6a.717.717,0,0,1,1.061,0l5.25,5.6a.839.839,0,0,1,0,1.131.718.718,0,0,1-1.061,0l-3.97-4.234V25.2a.752.752,0,1,1-1.5,0Z"
+                                            transform="translate(26 -4.001) rotate(90)" fill="#009ADC"
+                                            fill-rule="evenodd" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>32%</h3>
+                                        <small>increase in sales</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>45%</h3>
+                                        <small>more productivity</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>67%</h3>
+                                        <small>more cost saving</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class=" mt-5">
+                                <span class="tab-read">READ OUR CLIENTS STORY</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12">
+                                    <path id="arrow"
+                                        d="M9.25,4.731,5.28,8.965a.718.718,0,0,1-1.061,0,.839.839,0,0,1,0-1.131l5.25-5.6a.717.717,0,0,1,1.061,0l5.25,5.6a.839.839,0,0,1,0,1.131.718.718,0,0,1-1.061,0l-3.97-4.234V25.2a.752.752,0,1,1-1.5,0Z"
+                                        transform="translate(26 -4.001) rotate(90)" fill="#000" fill-rule="evenodd" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>62%</h3>
+                                        <small>increase in sales</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>95%</h3>
+                                        <small>more productivity</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>107%</h3>
+                                        <small>more cost saving</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class=" mt-5">
+                                <span class="tab-read">READ OUR CLIENTS STORY</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12">
+                                    <path id="arrow"
+                                        d="M9.25,4.731,5.28,8.965a.718.718,0,0,1-1.061,0,.839.839,0,0,1,0-1.131l5.25-5.6a.717.717,0,0,1,1.061,0l5.25,5.6a.839.839,0,0,1,0,1.131.718.718,0,0,1-1.061,0l-3.97-4.234V25.2a.752.752,0,1,1-1.5,0Z"
+                                        transform="translate(26 -4.001) rotate(90)" fill="#000" fill-rule="evenodd" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>32%</h3>
+                                        <small>increase in sales</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>45%</h3>
+                                        <small>more productivity</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>67%</h3>
+                                        <small>more cost saving</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class=" mt-5">
+                                <span class="tab-read">READ OUR CLIENTS STORY</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12">
+                                    <path id="arrow"
+                                        d="M9.25,4.731,5.28,8.965a.718.718,0,0,1-1.061,0,.839.839,0,0,1,0-1.131l5.25-5.6a.717.717,0,0,1,1.061,0l5.25,5.6a.839.839,0,0,1,0,1.131.718.718,0,0,1-1.061,0l-3.97-4.234V25.2a.752.752,0,1,1-1.5,0Z"
+                                        transform="translate(26 -4.001) rotate(90)" fill="#000" fill-rule="evenodd" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>32%</h3>
+                                        <small>increase in sales</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>45%</h3>
+                                        <small>more productivity</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>67%</h3>
+                                        <small>more cost saving</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class=" mt-5">
+                                <span class="tab-read">READ OUR CLIENTS STORY</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12">
+                                    <path id="arrow"
+                                        d="M9.25,4.731,5.28,8.965a.718.718,0,0,1-1.061,0,.839.839,0,0,1,0-1.131l5.25-5.6a.717.717,0,0,1,1.061,0l5.25,5.6a.839.839,0,0,1,0,1.131.718.718,0,0,1-1.061,0l-3.97-4.234V25.2a.752.752,0,1,1-1.5,0Z"
+                                        transform="translate(26 -4.001) rotate(90)" fill="#000" fill-rule="evenodd" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-sidbi" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>32%</h3>
+                                        <small>increase in sales</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>45%</h3>
+                                        <small>more productivity</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="tab-precentage-section mt-4">
+                                        <h3>67%</h3>
+                                        <small>more cost saving</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class=" mt-5">
+                                <span class="tab-read">READ OUR CLIENTS STORY</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12">
+                                    <path id="arrow"
+                                        d="M9.25,4.731,5.28,8.965a.718.718,0,0,1-1.061,0,.839.839,0,0,1,0-1.131l5.25-5.6a.717.717,0,0,1,1.061,0l5.25,5.6a.839.839,0,0,1,0,1.131.718.718,0,0,1-1.061,0l-3.97-4.234V25.2a.752.752,0,1,1-1.5,0Z"
+                                        transform="translate(26 -4.001) rotate(90)" fill="#000" fill-rule="evenodd" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
     </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-transparent border-0 mt-5">
+                    <div>
+                        <h1 class="my-3">
+                            Case Studies
+                        </h1>
+                        <p class="my-3">The enhanced performance, scalability of the technology have empowered us to
+                            drive innovation, improve operational efficiency, and deliver exceptional value to its
+                            customers.</p>
+                        <div class="more-view mt-5">
+                            <span class="me-3">More Projects</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12">
+                                <path id="arrow"
+                                    d="M9.25,4.731,5.28,8.965a.718.718,0,0,1-1.061,0,.839.839,0,0,1,0-1.131l5.25-5.6a.717.717,0,0,1,1.061,0l5.25,5.6a.839.839,0,0,1,0,1.131.718.718,0,0,1-1.061,0l-3.97-4.234V25.2a.752.752,0,1,1-1.5,0Z"
+                                    transform="translate(26 -4.001) rotate(90)" fill="#ffffff" fill-rule="evenodd" />
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+
+            </div>
+        </div>
     </div>
+
 
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
@@ -87,6 +503,61 @@
 
 
     </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get all tab links
+            const tabLinks = document.querySelectorAll('.nav-pills .nav-link');
+
+            // Set interval for tab switching (in milliseconds)
+            const interval = 5000; // 5 seconds
+
+            let currentIndex = 0;
+
+            // Function to switch tabs
+            function switchTab(index) {
+                // Get total number of tabs
+                const totalTabs = tabLinks.length;
+
+                // Remove active class from all tab links
+                tabLinks.forEach(function (link) {
+                    link.classList.remove('active');
+                });
+
+                // Add active class to the clicked tab link
+                tabLinks[index].classList.add('active');
+
+                // Show corresponding tab pane
+                const tabPaneId = tabLinks[index].getAttribute('data-bs-target');
+                const tabPane = document.querySelector(tabPaneId);
+                const tabContent = tabPane.closest('.tab-content');
+                tabContent.querySelectorAll('.tab-pane').forEach(function (tab) {
+                    tab.classList.remove('show', 'active');
+                });
+                tabPane.classList.add('show', 'active');
+            }
+
+            // Call switchTab function initially
+            switchTab(currentIndex);
+
+            // Set interval for automatic tab switching
+            setInterval(function () {
+                currentIndex = (currentIndex + 1) % tabLinks.length;
+                switchTab(currentIndex);
+            }, interval);
+
+            // Add click event listener to each tab link
+            tabLinks.forEach(function (link, index) {
+                link.addEventListener('click', function () {
+                    // Switch to the clicked tab
+                    currentIndex = index;
+                    switchTab(currentIndex);
+                });
+            });
+        });
+    </script>
+
+
 
 </body>
 
