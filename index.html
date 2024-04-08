@@ -208,7 +208,6 @@
 
     </div>
 
-    <br>
 
     <div class="container">
         <div class="mx-5 mb-4">
@@ -467,7 +466,7 @@
                             drive innovation, improve operational efficiency, and deliver exceptional value to its
                             customers.</p>
                         <div class="more-view mt-5">
-                            <span class="me-3">More Projects</span>
+                            <span class="mx-2">More Projects</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" viewBox="0 0 24 12">
                                 <path id="arrow"
                                     d="M9.25,4.731,5.28,8.965a.718.718,0,0,1-1.061,0,.839.839,0,0,1,0-1.131l5.25-5.6a.717.717,0,0,1,1.061,0l5.25,5.6a.839.839,0,0,1,0,1.131.718.718,0,0,1-1.061,0l-3.97-4.234V25.2a.752.752,0,1,1-1.5,0Z"
@@ -478,12 +477,21 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
-
+            <div class="col-md-7">
+                <div class="container">
+                    <div class="panel active" style="background-image: url('./assets/img/school_img.png');">
+                      <h3>Explore The World</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
+                      <h3>Wild Forest</h3>
+                    </div>
+             
+                    </div>
             </div>
         </div>
     </div>
-
+  
+      </div>
 
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
@@ -555,6 +563,20 @@
                 });
             });
         });
+        const panels = document.querySelectorAll('.panel')
+
+panels.forEach(panel => {
+    panel.addEventListener('click', () => {
+        removeActiveClasses()
+        panel.classList.add('active')
+    })
+})
+
+function removeActiveClasses() {
+    panels.forEach(panel => {
+        panel.classList.remove('active')
+    })
+}
     </script>
 
 
